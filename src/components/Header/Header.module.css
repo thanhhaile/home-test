@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  margin: 10px auto;
+  text-align: left;
+  padding: 7px 25px;
+  border-bottom: 2px rgba(128, 128, 128, 0.5) solid;
+};
+
+.brand {
+  font-size: 20px;
+  padding-right: 10px;
+  border-right: 1px gray solid;
+}
+
+.option {
+  font-size: 20px;
+  padding: 0 5px;
+  color: gray;
+}
+
+.option:hover{
+  text-decoration: none;
+}
+
+.option1{
+  padding-left: 10px;
+}
+
+.isActive{
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .option{
+    font-size: 17px;
+  }
+
+  .brand{
+    font-size: 17px;
+  }
+
+  .header {
+    padding: 7px 10px;
+  }
+}
